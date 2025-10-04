@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pdf-to-audio-app
+    env: docker
+    buildCommand: ""
+    startCommand: apache2-foreground
+    plan: free
